@@ -6,7 +6,7 @@
 
  .fondo{
        width: 1000px;
-       height: 3000px;
+       height: 5000px;
        background-color: rgb(20, 20, 20);
        display: flex;
        gap: 90px;
@@ -94,7 +94,7 @@ button:hover{
     display: flex;
     min-height: 200px;
     width: 250px;
-    word-break: break-all;
+    word-break: normal;
     text-align: center;
     font-size: 15px;
     color: rgb(150, 149, 149);
@@ -171,7 +171,7 @@ button:hover{
 }
 .conjuntocuadrados{
     display: flex;
-    gap: 160px 90px;
+    gap: 210px 90px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -205,6 +205,8 @@ button:hover{
     padding: 10px;
     color: rgb(211, 207, 207);
     text-align: center;
+    gap: 10px;
+    word-break: normal;
 }
 
 audio::-webkit-media-controls-panel {
