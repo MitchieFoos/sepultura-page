@@ -3,6 +3,12 @@
     padding:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+    body{
+   background-image: url(bc.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
  .fondo{
        width: 1000px;
@@ -160,6 +166,16 @@ button:hover{
     align-items: center;
     transition: .3s;
 }
+
+#ga.title{
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+
 
 .galeria{
     display: flex;
